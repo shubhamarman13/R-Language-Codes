@@ -1,0 +1,12 @@
+x<-31
+if(x>3)
+{
+  x=3
+}
+result<-switch(
+  x,
+  "1"="one",
+  "2"="two",
+  "wrong"
+)
+print(result)
